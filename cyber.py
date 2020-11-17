@@ -12,14 +12,14 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 
-amarghost = LineClient("yudhiprb@gmail.com","Amar007")
-#amarghost = LineClient(authToken='')
+#amarghost = LineClient("","") #Login Gmail
+#amarghost = LineClient(authToken='') #Login QR
 amarghost.log("Auth Token : " + str(amarghost.authToken))
 channel = LineChannel(amarghost)
 amarghost.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient("yudhiprb@gmail.com","Amar007")
-#ki = LineClient(authToken='')
+#ki = LineClient("","") #Login Gmail
+#ki = LineClient(authToken='') #Login QR
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
