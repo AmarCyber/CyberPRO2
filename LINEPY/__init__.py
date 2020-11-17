@@ -8,6 +8,6 @@ __version__         = '2.0.2'
 __license__         = 'BSD-3-Clause'
 __author__          = 'Amar Yudhika'
 __author_email__    = 'amaryudhika0@gmail.com'
-__url__             = 'https://yudhiprb.xtgem.com''
+__url__             = 'https://yudhiprb.xtgem.com'
 
 __all__ = ['LineClient', 'LineChannel', 'LinePoll', 'OpType']
